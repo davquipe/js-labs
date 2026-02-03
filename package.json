@@ -1,0 +1,17 @@
+{
+	"name": "js-labs",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"run:ex1": "npm --workspace packages/exercise-01-event-loop-mastery run run",
+		"verify:ex1": "npm --workspace packages/exercise-01-event-loop-mastery run verify",
+		"run:all": "npm -ws run run",
+		"verify:all": "npm -ws run verify",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs"
+}
